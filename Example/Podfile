@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CtsSocialLogin_Tests' do
+  pod 'CtsSocialLogin', :path => '../'
+  
+  
+end
