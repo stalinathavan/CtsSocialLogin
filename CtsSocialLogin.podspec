@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CtsSocialLogin'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CtsSocialLogin.'
+  s.summary          = 'use this framework for reusing'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,24 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "CTS login reuseable componets"
 
-  s.homepage         = 'https://github.com/stalin156@gmail.com/CtsSocialLogin'
+
+  s.homepage         = 'https://github.com/stalinathavan/CtsSocialLogin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'stalin156@gmail.com' => 'stalin156@gmail.com' }
-  s.source           = { :git => 'https://github.com/stalin156@gmail.com/CtsSocialLogin.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'https://github.com/stalinathavan/CtsSocialLogin.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'CtsSocialLogin/Classes/**/*'
+  s.dependency "Firebase"
+  s.dependency "GoogleSignIn"
+  s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/Firebase' }
+  #spec.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/Firebase/CoreOnly/Sources' }
+  s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/GoogleSignIn' }
+  s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/Firebase/Auth' }
+  s.static_framework = true
+
   
   # s.resource_bundles = {
   #   'CtsSocialLogin' => ['CtsSocialLogin/Assets/*.png']

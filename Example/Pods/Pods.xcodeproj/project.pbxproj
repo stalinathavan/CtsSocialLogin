@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C1CAA57217AC8F56C6AFA4DC4C5561 /* LoginTouchId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BEB932A062DA6355948A43E3161AA5 /* LoginTouchId.swift */; };
+		3F7367EB704B8E2ABFD7D82C9EF582A2 /* Pods-CtsSocialLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A92B90CF8AF0634BC1715D9E33C4C0F /* Pods-CtsSocialLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40CB9F379DE9933B37960043A33715D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		70120BD08FE3F3C08C89C61C834EC9F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9FB3B8CE80108624638606C3F2122268 /* CtsSocialLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A904B01C5595E56050F2E2DC77285AE2 /* CtsSocialLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8D113878389EF05B042B083BC93D7C1 /* Pods-CtsSocialLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E197C4BAF65D34269C0E71038F0AB8B0 /* Pods-CtsSocialLogin_Tests-dummy.m */; };
+		FD37E82597C8F071FA5F8243B1043CA5 /* CtsSocialLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0553B44DBF545B3FC311CCCD93D697 /* CtsSocialLogin-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF74BD99CB1EA932D76C16EEEF2BB8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D0A1389D8DA276471D2E875B344CED;
+			remoteInfo = CtsSocialLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0044E3D551F94E59203A7C359F73F9B9 /* Pods-CtsSocialLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CtsSocialLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		032384BD63375FA4470D436AA744A04C /* CtsSocialLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CtsSocialLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06796275A7DADADA1060EFEE5B301521 /* Pods_CtsSocialLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CtsSocialLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A92B90CF8AF0634BC1715D9E33C4C0F /* Pods-CtsSocialLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CtsSocialLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		15BEB932A062DA6355948A43E3161AA5 /* LoginTouchId.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginTouchId.swift; path = CtsSocialLogin/Classes/LoginTouchId.swift; sourceTree = "<group>"; };
+		321AF75CE24C972EE6DAE56F6108C477 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		498E0ACC1E88EAB0ED471730FB765FA4 /* Pods-CtsSocialLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CtsSocialLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55C771EFB45D151823F886EF84BDCAC7 /* CtsSocialLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CtsSocialLogin-Info.plist"; sourceTree = "<group>"; };
+		6F19D2AEC15F15F2AFEDE141EC9A91A6 /* Pods-CtsSocialLogin_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CtsSocialLogin_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7F0B31133B29F6133D24388F86F977FC /* Pods-CtsSocialLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CtsSocialLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E64E69628978B2E223145EA7D1837E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A904B01C5595E56050F2E2DC77285AE2 /* CtsSocialLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CtsSocialLogin-umbrella.h"; sourceTree = "<group>"; };
+		AC30EFC901BFB12E1F5E94CFD41EEE83 /* CtsSocialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CtsSocialLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0553B44DBF545B3FC311CCCD93D697 /* CtsSocialLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CtsSocialLogin-dummy.m"; sourceTree = "<group>"; };
+		B0CE0E7FC2EAADA1335A64C581C0C8E8 /* Pods-CtsSocialLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CtsSocialLogin_Tests.modulemap"; sourceTree = "<group>"; };
+		BBF770D0D19E61FD3CAD91E28D83B2F0 /* CtsSocialLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CtsSocialLogin-prefix.pch"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC1B34DFCC9F0BE99CAEBD22786CC09E /* Pods-CtsSocialLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CtsSocialLogin_Tests-Info.plist"; sourceTree = "<group>"; };
+		CD4343FA68C560A5EDEE4181FCC84C9E /* CtsSocialLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CtsSocialLogin.xcconfig; sourceTree = "<group>"; };
+		E197C4BAF65D34269C0E71038F0AB8B0 /* Pods-CtsSocialLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CtsSocialLogin_Tests-dummy.m"; sourceTree = "<group>"; };
+		E8B76EF9C675AF5C8E1802E4724B2BEC /* CtsSocialLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CtsSocialLogin.modulemap; sourceTree = "<group>"; };
+		F219A4F795489E746ACFABD2FB03BAEE /* Pods-CtsSocialLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CtsSocialLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12DD2B1CAC9EFEF754B8D97F9584E719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70120BD08FE3F3C08C89C61C834EC9F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F3251489D7878EF4EF618BEA455246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CB9F379DE9933B37960043A33715D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F1D66B259CC5445E7D22990078345E /* Pods-CtsSocialLogin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE0E7FC2EAADA1335A64C581C0C8E8 /* Pods-CtsSocialLogin_Tests.modulemap */,
+				498E0ACC1E88EAB0ED471730FB765FA4 /* Pods-CtsSocialLogin_Tests-acknowledgements.markdown */,
+				F219A4F795489E746ACFABD2FB03BAEE /* Pods-CtsSocialLogin_Tests-acknowledgements.plist */,
+				E197C4BAF65D34269C0E71038F0AB8B0 /* Pods-CtsSocialLogin_Tests-dummy.m */,
+				6F19D2AEC15F15F2AFEDE141EC9A91A6 /* Pods-CtsSocialLogin_Tests-frameworks.sh */,
+				CC1B34DFCC9F0BE99CAEBD22786CC09E /* Pods-CtsSocialLogin_Tests-Info.plist */,
+				0A92B90CF8AF0634BC1715D9E33C4C0F /* Pods-CtsSocialLogin_Tests-umbrella.h */,
+				7F0B31133B29F6133D24388F86F977FC /* Pods-CtsSocialLogin_Tests.debug.xcconfig */,
+				0044E3D551F94E59203A7C359F73F9B9 /* Pods-CtsSocialLogin_Tests.release.xcconfig */,
+			);
+			name = "Pods-CtsSocialLogin_Tests";
+			path = "Target Support Files/Pods-CtsSocialLogin_Tests";
+			sourceTree = "<group>";
+		};
+		18EFD49A39F48A77BAB1AF3BF084BD70 /* CtsSocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				15BEB932A062DA6355948A43E3161AA5 /* LoginTouchId.swift */,
+				3028E3B338570B9449B4B51BD672B61C /* Pod */,
+				1D9921F5B289818794D7A29CD0AF2FBE /* Support Files */,
+			);
+			name = CtsSocialLogin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D9921F5B289818794D7A29CD0AF2FBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8B76EF9C675AF5C8E1802E4724B2BEC /* CtsSocialLogin.modulemap */,
+				CD4343FA68C560A5EDEE4181FCC84C9E /* CtsSocialLogin.xcconfig */,
+				AE0553B44DBF545B3FC311CCCD93D697 /* CtsSocialLogin-dummy.m */,
+				55C771EFB45D151823F886EF84BDCAC7 /* CtsSocialLogin-Info.plist */,
+				BBF770D0D19E61FD3CAD91E28D83B2F0 /* CtsSocialLogin-prefix.pch */,
+				A904B01C5595E56050F2E2DC77285AE2 /* CtsSocialLogin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CtsSocialLogin";
+			sourceTree = "<group>";
+		};
+		3028E3B338570B9449B4B51BD672B61C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				032384BD63375FA4470D436AA744A04C /* CtsSocialLogin.podspec */,
+				321AF75CE24C972EE6DAE56F6108C477 /* LICENSE */,
+				9E64E69628978B2E223145EA7D1837E3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6F42EC323BF463D7B3263020AE28F64C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18EFD49A39F48A77BAB1AF3BF084BD70 /* CtsSocialLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9836858676B94D4D5A5E66F316CA498A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC30EFC901BFB12E1F5E94CFD41EEE83 /* CtsSocialLogin.framework */,
+				06796275A7DADADA1060EFEE5B301521 /* Pods_CtsSocialLogin_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6F42EC323BF463D7B3263020AE28F64C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9836858676B94D4D5A5E66F316CA498A /* Products */,
+				E2571ADA079883255FF92549C8B7A012 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2571ADA079883255FF92549C8B7A012 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17F1D66B259CC5445E7D22990078345E /* Pods-CtsSocialLogin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DB8CF1C236F74B128F0AB974FC8A4ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB3B8CE80108624638606C3F2122268 /* CtsSocialLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79223F6390B7B917E8442C41808C0DB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7367EB704B8E2ABFD7D82C9EF582A2 /* Pods-CtsSocialLogin_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		94D0A1389D8DA276471D2E875B344CED /* CtsSocialLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21056DD2649EEBFE8D7CCEBE595178E6 /* Build configuration list for PBXNativeTarget "CtsSocialLogin" */;
+			buildPhases = (
+				3DB8CF1C236F74B128F0AB974FC8A4ED /* Headers */,
+				A8613DF03F3F5E549D7C401D450CB359 /* Sources */,
+				40F3251489D7878EF4EF618BEA455246 /* Frameworks */,
+				A330A4C4291D3B2D51239B050C2DBB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CtsSocialLogin;
+			productName = CtsSocialLogin;
+			productReference = AC30EFC901BFB12E1F5E94CFD41EEE83 /* CtsSocialLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2AF0C053933D1525F0BEA60F3BBAF0A /* Pods-CtsSocialLogin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B897906A61F26FC9E4B5594AB82133D /* Build configuration list for PBXNativeTarget "Pods-CtsSocialLogin_Tests" */;
+			buildPhases = (
+				79223F6390B7B917E8442C41808C0DB2 /* Headers */,
+				6FBEC8DF98CEBCA89D2B32A935F60C6C /* Sources */,
+				12DD2B1CAC9EFEF754B8D97F9584E719 /* Frameworks */,
+				E517965E32DB677D5C291F97F53EDCB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40227525D8F0B2E1D29C733959B5C710 /* PBXTargetDependency */,
+			);
+			name = "Pods-CtsSocialLogin_Tests";
+			productName = "Pods-CtsSocialLogin_Tests";
+			productReference = 06796275A7DADADA1060EFEE5B301521 /* Pods_CtsSocialLogin_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					94D0A1389D8DA276471D2E875B344CED = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9836858676B94D4D5A5E66F316CA498A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D0A1389D8DA276471D2E875B344CED /* CtsSocialLogin */,
+				D2AF0C053933D1525F0BEA60F3BBAF0A /* Pods-CtsSocialLogin_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A330A4C4291D3B2D51239B050C2DBB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E517965E32DB677D5C291F97F53EDCB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FBEC8DF98CEBCA89D2B32A935F60C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D113878389EF05B042B083BC93D7C1 /* Pods-CtsSocialLogin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8613DF03F3F5E549D7C401D450CB359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD37E82597C8F071FA5F8243B1043CA5 /* CtsSocialLogin-dummy.m in Sources */,
+				33C1CAA57217AC8F56C6AFA4DC4C5561 /* LoginTouchId.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40227525D8F0B2E1D29C733959B5C710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CtsSocialLogin;
+			target = 94D0A1389D8DA276471D2E875B344CED /* CtsSocialLogin */;
+			targetProxy = BF74BD99CB1EA932D76C16EEEF2BB8BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07C0F7907C469634E3357DED46D0FC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4343FA68C560A5EDEE4181FCC84C9E /* CtsSocialLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CtsSocialLogin/CtsSocialLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CtsSocialLogin/CtsSocialLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CtsSocialLogin/CtsSocialLogin.modulemap";
+				PRODUCT_MODULE_NAME = CtsSocialLogin;
+				PRODUCT_NAME = CtsSocialLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		439AE1523955B7AE67A35215D39D3275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0044E3D551F94E59203A7C359F73F9B9 /* Pods-CtsSocialLogin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CtsSocialLogin_Tests/Pods-CtsSocialLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CtsSocialLogin_Tests/Pods-CtsSocialLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		494450AD4EFB3F5B8167F5789CEE0973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4343FA68C560A5EDEE4181FCC84C9E /* CtsSocialLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CtsSocialLogin/CtsSocialLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CtsSocialLogin/CtsSocialLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CtsSocialLogin/CtsSocialLogin.modulemap";
+				PRODUCT_MODULE_NAME = CtsSocialLogin;
+				PRODUCT_NAME = CtsSocialLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ADB657C7405090B88EF77224A30E7FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0B31133B29F6133D24388F86F977FC /* Pods-CtsSocialLogin_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CtsSocialLogin_Tests/Pods-CtsSocialLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CtsSocialLogin_Tests/Pods-CtsSocialLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21056DD2649EEBFE8D7CCEBE595178E6 /* Build configuration list for PBXNativeTarget "CtsSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494450AD4EFB3F5B8167F5789CEE0973 /* Debug */,
+				07C0F7907C469634E3357DED46D0FC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B897906A61F26FC9E4B5594AB82133D /* Build configuration list for PBXNativeTarget "Pods-CtsSocialLogin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB657C7405090B88EF77224A30E7FE1 /* Debug */,
+				439AE1523955B7AE67A35215D39D3275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - CtsSocialLogin (0.1.0)
+
+DEPENDENCIES:
+  - CtsSocialLogin (from `../`)
+
+EXTERNAL SOURCES:
+  CtsSocialLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CtsSocialLogin: 034361da614c952ce825fb48e7a111a0c35caba5
+
+PODFILE CHECKSUM: 3ee103aacf6075ac5e224af82a434b5540daa987
+
+COCOAPODS: 1.6.1

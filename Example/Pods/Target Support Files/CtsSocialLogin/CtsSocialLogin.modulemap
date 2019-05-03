@@ -1,0 +1,6 @@
+framework module CtsSocialLogin {
+  umbrella header "CtsSocialLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
