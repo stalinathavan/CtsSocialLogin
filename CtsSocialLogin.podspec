@@ -29,10 +29,14 @@ Pod::Spec.new do |s|
   s.source_files = 'CtsSocialLogin/Classes/**/*'
   s.dependency "Firebase"
   s.dependency "GoogleSignIn"
+  s.dependency "FBSDKLoginKit"
+  s.dependency "TwitterKit"
   s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/Firebase' }
   #spec.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/Firebase/CoreOnly/Sources' }
   s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/GoogleSignIn' }
   s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/Firebase/Auth' }
+ s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/FBSDKLoginKit' }
+ s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/TwitterKit' }
   s.static_framework = true
 
   
